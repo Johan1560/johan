@@ -7,6 +7,31 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+body {
+    background-color: #4CAF50;
+    color: white;
+    font-family: Arial, sans-serif;
 }
+
+.bambu-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.bambu-container a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+}
+
+.bambu-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bambu-container a:hover {
+    transform: scale(1.05);
+}
+
